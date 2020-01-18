@@ -1,0 +1,304 @@
+* 
+	margin: 0
+	// box-sizing: border-box
+html
+	cursor: url("../img/circular.png"), auto
+body
+	// background-color: #000
+	transition: ease-in-out background-color .3s
+	position: relative
+	z-index: 999
+	// width: 100%
+h1, h3, p, h2, li, h4, a, span
+	font-family: 'Montserrat'
+	text-decoration: none
+	font-weight: 400
+	color: #fff
+	letter-spacing: 1px
+p, input, textarea
+	font-family: 'Montserrat'
+	font-weight: normal
+	font-weight: 100
+	font-size: 19px
+h3
+	font-size: 20px
+.panel 
+	transition: ease-in-out background-color .3s
+.loading
+	width: 100%
+	height: 100%
+	position: fixed
+	top: 0
+	z-index: 9999999
+	background-color: #111
+	h1 
+		font-size: 20px
+		text-align: center
+		position: relative
+		top: 43%
+// HEADER
+
+.head
+	width: 100%
+	height: 100vh
+	position: relative
+	// background-color: transparent
+	z-index: 999
+	// background: #fff
+	// transition: all .3s ease
+	transition: ease-in-out background-color .3s
+	.text-center
+		// border: 1px solid blue
+		// height: 100vh
+		position: relative
+		top: 37%
+		.text
+			position: relative
+			// top: 43vh
+			// border: 1px solid red
+			padding: 0 10vw
+			// margin: 250px 0
+		h1 
+			color: #111
+			margin: 0
+			text-align: left
+			font-size: 2.8vw
+			// border: 1px solid blue
+	.text-bottom
+		width: 100%
+		position: absolute
+		bottom: 0
+		margin-bottom: 2vw
+		// border: 1px solid red
+		.left, .right
+			padding: 0 2vw
+			h2
+				color: #111
+				font-size: 1.2vw
+				a 
+					color: #111
+					cursor: inherit
+		.left
+			float: left
+			position: absolute
+			left: 0vw
+			top: -2vw
+			white-space: nowrap
+			transform: rotate(90deg)
+		.right 
+			float: right
+.menu-top
+	position: fixed
+	top: 0
+	left: 0
+	right: 0
+	width: 100%
+	z-index: 9999999
+	mix-blend-mode: difference
+	padding-top: 1vw
+	.logo
+		// border: 1px solid blue
+		padding: 0 4vw
+		position: relative
+		h1
+			font-weight: 400
+			font-size: 2.9vw
+			margin: 0
+	.button
+		// border: 1px solid blue
+		padding: 1.25vw 4vw
+		// position: relative
+		// z-index: 9999999
+		ul 
+			float: right
+		li
+			font-weight: 400
+			list-style-type: none
+			float: left
+			font-size: 1.2vw
+			margin-left: 3vw
+			a 	
+				color: #fff
+			&:hover 
+				color: #AA0134
+				transition: color .4s ease-in-out
+			&:hover:after
+				width: 100%
+			&:after
+				width: 100%
+			&:after
+			    background-color: #AA0134
+			    display: block
+			    content: ""
+			    height: .2vw
+			    width: 0%
+			    -webkit-transition: width .4s ease-in-out
+			    -moz--transition: width .4s ease-in-out
+			    transition: width .4s ease-in-out
+
+// HEADER
+
+
+// ABOUT
+.none
+	display: block!important
+	background-color: #0D0D0D!important
+	transition: none
+.click
+	color: #AA0134
+.style-a
+	background-color: #0D0D0D!important
+	// transition: all .3s ease
+.about
+	width: 100%
+	transition: ease-in-out background-color .3s
+	position: relative
+	z-index: 100
+	// background-color: #fff
+	// transition: all .3s ease
+	// border: 1px solid red
+	// padding: 70px 0
+	.row
+		margin: 0
+	.image-a
+		// width: 36.5vw
+		// height: 36.5vw
+		float: left
+		// display: none
+		width: 33.5vw
+		height: 45vw	
+		transition: all .05s ease
+		background: url('../img/mB2UbiVD7cQ.jpg')
+		background-position: center
+		background-size: cover
+		// border: 1px solid red
+	.left
+		width: 60vw
+		float: right
+		position: relative
+		margin-top: 12%
+		h3
+			font-size: 1.2vw
+			text-align: left
+			padding-bottom: 1vw
+		p 
+			font-size: 1.2vw
+			color: #fff
+			text-align: left
+			margin-top: 1vw
+		.text
+			width: 70%
+			.soc 
+				margin-top: 3vw
+				h3 
+					font-size: 1.2vw
+					font-weight: 300
+					// border: 1px solid red
+					display: inline-block
+					margin-right: 2.5vw
+					a 
+						color: #fff
+						font-weight: 300
+						&:hover 
+							color: #AA0134
+							transition: color .4s ease-in-out
+						&:hover:after
+							width: 100%
+						&:after
+							width: 100%
+						&:after
+						    background-color: #AA0134
+						    display: block
+						    content: ""
+						    height: .2vw
+						    width: 0%
+						    -webkit-transition: width .4s ease-in-out
+						    -moz--transition: width .4s ease-in-out
+						    transition: width .4s ease-in-out
+// ABOUT
+
+
+
+// PORTFOLIO
+
+.portfolio 
+	width: 100%
+	position: relative
+	z-index: 999999
+	padding: 4vw 0 6vw
+	// background-color: #0D0D0D
+	.row 
+		margin: 0
+	.work-1 
+		padding: 0vw 3vw 0vw 6vw
+	.work-2
+		margin-top: 5vw
+		padding: 0vw 6vw 0vw 3vw
+	.work
+		width: 49.4vw
+		// border: 1px solid red
+		// background-color: #dcdcdc
+		float: left
+		.item
+			background-color: #fff
+			width: 100%
+			height: 28vw
+		.text 
+			color: #fff
+			margin-top: 1vw
+			h2 
+				font-size: 1.4vw
+				text-align: left
+			h3 
+				font-size: 1.2vw
+				text-align: left
+				color: #7E7B7B
+// PORTFOLIO
+
+// FOOTER 
+
+footer 
+	width: 100%
+	height: 100%
+	cursor: url("../img/circular2.png"), auto
+	padding: 5vw 0 3vw
+	background: #fff
+	.footer-f 	
+		width: 80%
+		margin: auto
+	.left
+		height: 100%
+		h1
+			color: #111
+			margin: 0px 0 3vw
+			font-size: 2.1vw
+			line-height: 4vw
+		.soc-net
+			h2
+				display: inline-block
+				font-size: 1.2vw
+				padding-right: 1vw
+				a
+					color: #111
+					margin-right: 1vw
+					border-bottom: 1px solid #111
+					cursor: url("../img/circular2.png"), auto
+					&:hover 
+						color: #AA0134
+						transition: color .4s ease-in-out
+	.left, .right 
+		display: inline-block
+	.right
+		height: 100%
+		position: relative
+		left: 16vw
+		bottom: 9.5vw
+		h2
+			font-size: 1.3vw
+			margin: 0vw 0 2vw
+			a 
+				color: #111
+				cursor: url("../img/circular2.png"), auto
+// FOOTER 
+
+

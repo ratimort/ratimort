@@ -1,0 +1,226 @@
+/*==========  Desktop First  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1199px) {
+
+}
+
+@media only screen and (max-width: 1190px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 1024px) {
+
+}
+@media only screen and (max-width: 991px) {
+
+}
+
+@media only screen and (max-width: 823px) {
+.head .text-center h1 {
+	font-size: 25px;
+}
+.menu-top {
+	padding-top: 0px; 
+}
+.menu-top .logo h1 {
+	font-size: 30px;
+}
+.menu-top .logo {
+	padding: 9px 14px;
+}
+.menu-top .button {
+	padding: 20px 14px;
+}
+.menu-top .button li {
+	font-size: 13px;
+}
+.head .text-bottom .left h2, .head .text-bottom .right h2 {
+	font-size: 13px;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 767px) {
+.head .text-bottom .left h2, .head .text-bottom .right h2 {
+	font-size: 11px;
+}
+.menu-top .button li {
+	font-size: 11px;
+}
+.menu-top .button ul {
+	padding: 0;
+}
+.about .left {
+	width: 80%;
+	float: inherit;
+}
+.about .left {
+	margin: 50px 0;
+}
+.about .left .text {
+	width: 100%;
+	padding: 0 20px;
+	margin: 0;
+}
+.about .left h3 {
+	font-size: 11px;
+}
+.about .left p {
+	font-size: 11px;
+}
+.about .left .text .soc h3 a {
+	font-size: 11px;
+}
+.about .image-a {
+	width: 60%;
+	float: inherit;
+	display: none!important;
+}
+.portfolio .work .text h2 {
+	font-size: 11px;
+}
+.portfolio .work .text h3 {
+	font-size: 11px;
+}
+footer {
+	padding: 30px 0;
+}
+footer .left {
+	padding-bottom: 15px;
+}
+footer .left, footer .right {
+	display: inherit;
+}
+footer .left h1 {
+	font-size: 16px;
+	line-height: 25px;
+	margin-bottom: 0px;
+}
+footer .right h2 {
+	font-size: 11px;
+}
+footer .left .soc-net h2 a {
+	font-size: 11px;
+}
+footer .right {
+	left: 0px;
+	bottom: 0;
+}
+footer .footer-f {
+	width: 100%;
+	padding: 0 30px;
+}
+}
+
+@media only screen and (max-width: 736px) {
+
+
+}
+
+@media only screen and (max-width: 667px) {
+.head .text-center h1 {
+	font-size: 22px;
+}
+.menu-top .logo {
+	padding: 8.5px 14px;
+}
+}
+
+@media only screen and (max-width: 650px) {
+
+}
+
+@media only screen and (max-width: 600px) {
+.head .text-center h1 {
+	font-size: 20px;
+}
+.about .left {
+	width: 100%;
+	float: inherit;
+} 
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 570px) {
+
+}
+@media only screen and (max-width: 497px) {
+.head .text-center h1 {
+	font-size: 18px;
+}
+.head .text-bottom .left {
+	top: -20px;
+}
+.head .text-bottom .left, .head .text-bottom .right {
+	padding: 0 14px;
+}
+.portfolio .work {
+	width: 100%;
+	/*margin: 20px 0;*/
+}
+.portfolio .work-1 {
+	padding: 10px 30px;
+}
+.portfolio .work-2 {
+	padding: 10px 30px;
+	margin: 0;
+}
+.portfolio .work .item {
+	height: 250px;
+}
+}
+
+@media only screen and (max-width: 507px) {
+
+}
+
+@media only screen and (max-width: 380px) {
+.portfolio .work-1 {
+	padding: 10 15px;
+}
+.portfolio .work-2 {
+	padding: 10 15px;
+}
+.portfolio .work .item {
+	height: 200px;
+}
+footer .footer-f {
+	width: 100%;
+	padding: 0 15px;
+} 
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+
+}
+
+/*==========  Mobile First  ==========*/
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+
+  /**/ }
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+
+}
+
+@media only screen and (min-width: 1600px) {
+
+}
